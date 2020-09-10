@@ -1,0 +1,30 @@
+%Title: Perspective Cars for Purchase
+%
+@relation PerspectiveCarCondition
+
+@attribute rust {none, some, covered}
+@attribute year numeric
+@attribute miles numeric
+@attribute owners numeric
+@attribute price numeric 
+@attribute buy? {yes, no}
+
+@data
+%
+% 15 instances
+%
+some, 2000, 200000, 2, 3000, no
+covered, 2005, 135000, 1, 6000, no
+none, 2015, 40000, 1, 10000, no 
+some, 2007, 150000, 1, 5000, yes
+some, 2007, 230000, 2, 3000, no
+none, 2010, 187000, 1, 6500, yes 
+some, 2003, 59000, 1, 5700, yes
+covered, 2008, 140000, 1, 6000, yes
+none, 2018, 30000, 1, 14000, no 
+some, 2008, 105000, 1, 9000, yes
+covered, 1999, 250000, 3, 2000, no
+none, 2017, 50000, 1, 12000, no
+some, 2010, 178000, 2, 8000, yes
+covered, 2007, 199000, 1, 4000, no
+none, 2016, 130000, 1, 8000, yes
